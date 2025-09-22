@@ -2834,14 +2834,14 @@ function DiscordLib:Window(text)
 				local PresetClr = Instance.new("Frame")
 				local PresetClrCorner = Instance.new("UICorner")
 
-				Colorpicker.Name = "Colorpicker"
+				Colorpicker.Name = text
 				Colorpicker.Parent = ChannelHolder
 				Colorpicker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Colorpicker.BackgroundTransparency = 1.000
 				Colorpicker.Position = UDim2.new(0.0895741582, 0, 0.474232763, 0)
 				Colorpicker.Size = UDim2.new(0, 403, 0, 175)
 
-				ColorpickerTitle.Name = "ColorpickerTitle"
+				ColorpickerTitle.Name = text
 				ColorpickerTitle.Parent = Colorpicker
 				ColorpickerTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				ColorpickerTitle.BackgroundTransparency = 1.000
