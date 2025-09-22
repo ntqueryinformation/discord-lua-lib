@@ -493,7 +493,7 @@ function DiscordLib:Window(text)
 		function(io, p)
 			if io.KeyCode == Enum.KeyCode.RightControl then
 				if windowsClosed == true then
-					MainFrame:TweenSize(UDim2.new(0, 681, 0, 22), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+					MainFrame:TweenSize(UDim2.new(0, 681, 0, 396), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
                     windowsClosed = false
                 else
                     MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
