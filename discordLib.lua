@@ -81,9 +81,13 @@ local function MakeDraggable(topbarobject, object)
 	)
 end
 
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
 local Discord = Instance.new("ScreenGui")
 Discord.Name = "hrg36v1"
-Discord.Parent = game.CoreGui
+Discord.Parent = playerGui
 Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 function DiscordLib:Window(text)
